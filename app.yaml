@@ -1,0 +1,36 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+  - url: /img
+    static_dir: res/img/
+  - url: /css
+    static_dir: res/css/
+  - url: /
+    script: main.app
+  - url: /loginvalidate
+    script: main.app
+  - url: /createtaskboard
+    script: main.app
+  - url: /createtaskboardsubmit
+    script: main.app
+  - url: /userdashboard
+    script: main.app
+  - url: /viewcreatedtaskboard
+    script: main.app
+  - url: /viewcreatedtbdata
+    script: main.app
+  - url: /addnewtasktotaskboard
+    script: main.app
+  - url: /completetask
+    script: main.app
+  - url: /deletetask
+    script: main.app
+  - url: /deletetaskboard
+    script: main.app
+  - url: /viewmembertaskboard
+    script: main.app
+  - url: /addmembertotaskboard
+    script: main.app
+
